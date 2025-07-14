@@ -25,7 +25,9 @@ try:
     resp = requests.post(f'{api_url}/chat/completions', headers=headers, json=data)
     body = resp.json()
 
-    pprint(body, indent=4)
+    text = body['choices'][0]['message']['content']
+
+    print(text)
 
 except Exception as e:
     raise print(e)
