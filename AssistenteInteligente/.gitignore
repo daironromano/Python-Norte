@@ -1,0 +1,10 @@
+# Variáveis de ambiente e segredos
+.env
+
+# Arquivos de cache e compilados do Python
+__pycache__/
+*.pyc
+
+# Ambientes virtuais
+/venv/
+/.venv/
