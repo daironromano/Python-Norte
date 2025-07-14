@@ -8,3 +8,16 @@ __pycache__/
 # Ambientes virtuais
 /venv/
 /.venv/
+
+# Arquivos de log
+*.log
+
+# Configurações do VSCode
+.vscode/
+
+# Arquivos temporários
+*.tmp
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
